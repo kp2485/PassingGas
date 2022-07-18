@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D647AE6D288606F800E39EA3 /* PassingGasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647AE6C288606F800E39EA3 /* PassingGasApp.swift */; };
+		D647AE6F288606F800E39EA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647AE6E288606F800E39EA3 /* ContentView.swift */; };
+		D647AE71288606F900E39EA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D647AE70288606F900E39EA3 /* Assets.xcassets */; };
+		D647AE74288606F900E39EA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D647AE73288606F900E39EA3 /* Preview Assets.xcassets */; };
+		D647AE7E288606FA00E39EA3 /* PassingGasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647AE7D288606FA00E39EA3 /* PassingGasTests.swift */; };
+		D647AE88288606FA00E39EA3 /* PassingGasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647AE87288606FA00E39EA3 /* PassingGasUITests.swift */; };
+		D647AE8A288606FA00E39EA3 /* PassingGasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647AE89288606FA00E39EA3 /* PassingGasUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D647AE7A288606FA00E39EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D647AE61288606F800E39EA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D647AE68288606F800E39EA3;
+			remoteInfo = PassingGas;
+		};
+		D647AE84288606FA00E39EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D647AE61288606F800E39EA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D647AE68288606F800E39EA3;
+			remoteInfo = PassingGas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D647AE69288606F800E39EA3 /* PassingGas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassingGas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D647AE6C288606F800E39EA3 /* PassingGasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingGasApp.swift; sourceTree = "<group>"; };
+		D647AE6E288606F800E39EA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D647AE70288606F900E39EA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D647AE73288606F900E39EA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D647AE79288606F900E39EA3 /* PassingGasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassingGasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D647AE7D288606FA00E39EA3 /* PassingGasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingGasTests.swift; sourceTree = "<group>"; };
+		D647AE83288606FA00E39EA3 /* PassingGasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassingGasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D647AE87288606FA00E39EA3 /* PassingGasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingGasUITests.swift; sourceTree = "<group>"; };
+		D647AE89288606FA00E39EA3 /* PassingGasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingGasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D647AE66288606F800E39EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D647AE76288606F900E39EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D647AE80288606FA00E39EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D647AE60288606F800E39EA3 = {
+			isa = PBXGroup;
+			children = (
+				D647AE6B288606F800E39EA3 /* PassingGas */,
+				D647AE7C288606FA00E39EA3 /* PassingGasTests */,
+				D647AE86288606FA00E39EA3 /* PassingGasUITests */,
+				D647AE6A288606F800E39EA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D647AE6A288606F800E39EA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D647AE69288606F800E39EA3 /* PassingGas.app */,
+				D647AE79288606F900E39EA3 /* PassingGasTests.xctest */,
+				D647AE83288606FA00E39EA3 /* PassingGasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D647AE6B288606F800E39EA3 /* PassingGas */ = {
+			isa = PBXGroup;
+			children = (
+				D647AE6C288606F800E39EA3 /* PassingGasApp.swift */,
+				D647AE6E288606F800E39EA3 /* ContentView.swift */,
+				D647AE70288606F900E39EA3 /* Assets.xcassets */,
+				D647AE72288606F900E39EA3 /* Preview Content */,
+			);
+			path = PassingGas;
+			sourceTree = "<group>";
+		};
+		D647AE72288606F900E39EA3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D647AE73288606F900E39EA3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D647AE7C288606FA00E39EA3 /* PassingGasTests */ = {
+			isa = PBXGroup;
+			children = (
+				D647AE7D288606FA00E39EA3 /* PassingGasTests.swift */,
+			);
+			path = PassingGasTests;
+			sourceTree = "<group>";
+		};
+		D647AE86288606FA00E39EA3 /* PassingGasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D647AE87288606FA00E39EA3 /* PassingGasUITests.swift */,
+				D647AE89288606FA00E39EA3 /* PassingGasUITestsLaunchTests.swift */,
+			);
+			path = PassingGasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D647AE68288606F800E39EA3 /* PassingGas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D647AE8D288606FA00E39EA3 /* Build configuration list for PBXNativeTarget "PassingGas" */;
+			buildPhases = (
+				D647AE65288606F800E39EA3 /* Sources */,
+				D647AE66288606F800E39EA3 /* Frameworks */,
+				D647AE67288606F800E39EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassingGas;
+			productName = PassingGas;
+			productReference = D647AE69288606F800E39EA3 /* PassingGas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D647AE78288606F900E39EA3 /* PassingGasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D647AE90288606FA00E39EA3 /* Build configuration list for PBXNativeTarget "PassingGasTests" */;
+			buildPhases = (
+				D647AE75288606F900E39EA3 /* Sources */,
+				D647AE76288606F900E39EA3 /* Frameworks */,
+				D647AE77288606F900E39EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D647AE7B288606FA00E39EA3 /* PBXTargetDependency */,
+			);
+			name = PassingGasTests;
+			productName = PassingGasTests;
+			productReference = D647AE79288606F900E39EA3 /* PassingGasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D647AE82288606FA00E39EA3 /* PassingGasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D647AE93288606FA00E39EA3 /* Build configuration list for PBXNativeTarget "PassingGasUITests" */;
+			buildPhases = (
+				D647AE7F288606FA00E39EA3 /* Sources */,
+				D647AE80288606FA00E39EA3 /* Frameworks */,
+				D647AE81288606FA00E39EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D647AE85288606FA00E39EA3 /* PBXTargetDependency */,
+			);
+			name = PassingGasUITests;
+			productName = PassingGasUITests;
+			productReference = D647AE83288606FA00E39EA3 /* PassingGasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D647AE61288606F800E39EA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D647AE68288606F800E39EA3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D647AE78288606F900E39EA3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D647AE68288606F800E39EA3;
+					};
+					D647AE82288606FA00E39EA3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D647AE68288606F800E39EA3;
+					};
+				};
+			};
+			buildConfigurationList = D647AE64288606F800E39EA3 /* Build configuration list for PBXProject "PassingGas" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D647AE60288606F800E39EA3;
+			productRefGroup = D647AE6A288606F800E39EA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D647AE68288606F800E39EA3 /* PassingGas */,
+				D647AE78288606F900E39EA3 /* PassingGasTests */,
+				D647AE82288606FA00E39EA3 /* PassingGasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D647AE67288606F800E39EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D647AE74288606F900E39EA3 /* Preview Assets.xcassets in Resources */,
+				D647AE71288606F900E39EA3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D647AE77288606F900E39EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D647AE81288606FA00E39EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D647AE65288606F800E39EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D647AE6F288606F800E39EA3 /* ContentView.swift in Sources */,
+				D647AE6D288606F800E39EA3 /* PassingGasApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D647AE75288606F900E39EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D647AE7E288606FA00E39EA3 /* PassingGasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D647AE7F288606FA00E39EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D647AE8A288606FA00E39EA3 /* PassingGasUITestsLaunchTests.swift in Sources */,
+				D647AE88288606FA00E39EA3 /* PassingGasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D647AE7B288606FA00E39EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D647AE68288606F800E39EA3 /* PassingGas */;
+			targetProxy = D647AE7A288606FA00E39EA3 /* PBXContainerItemProxy */;
+		};
+		D647AE85288606FA00E39EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D647AE68288606F800E39EA3 /* PassingGas */;
+			targetProxy = D647AE84288606FA00E39EA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D647AE8B288606FA00E39EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D647AE8C288606FA00E39EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D647AE8E288606FA00E39EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PassingGas/Preview Content\"";
+				DEVELOPMENT_TEAM = 588PCRUA35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LinwoodTechnologies.PassingGas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D647AE8F288606FA00E39EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PassingGas/Preview Content\"";
+				DEVELOPMENT_TEAM = 588PCRUA35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LinwoodTechnologies.PassingGas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D647AE91288606FA00E39EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 588PCRUA35;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LinwoodTechnologies.PassingGasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassingGas.app/PassingGas";
+			};
+			name = Debug;
+		};
+		D647AE92288606FA00E39EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 588PCRUA35;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LinwoodTechnologies.PassingGasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassingGas.app/PassingGas";
+			};
+			name = Release;
+		};
+		D647AE94288606FA00E39EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 588PCRUA35;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LinwoodTechnologies.PassingGasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PassingGas;
+			};
+			name = Debug;
+		};
+		D647AE95288606FA00E39EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 588PCRUA35;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LinwoodTechnologies.PassingGasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PassingGas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D647AE64288606F800E39EA3 /* Build configuration list for PBXProject "PassingGas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D647AE8B288606FA00E39EA3 /* Debug */,
+				D647AE8C288606FA00E39EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D647AE8D288606FA00E39EA3 /* Build configuration list for PBXNativeTarget "PassingGas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D647AE8E288606FA00E39EA3 /* Debug */,
+				D647AE8F288606FA00E39EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D647AE90288606FA00E39EA3 /* Build configuration list for PBXNativeTarget "PassingGasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D647AE91288606FA00E39EA3 /* Debug */,
+				D647AE92288606FA00E39EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D647AE93288606FA00E39EA3 /* Build configuration list for PBXNativeTarget "PassingGasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D647AE94288606FA00E39EA3 /* Debug */,
+				D647AE95288606FA00E39EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D647AE61288606F800E39EA3 /* Project object */;
+}
