@@ -8,9 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var datas = ReadElementData()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+//            BackgroundView()
+            List(datas.elements) { element in
+                VStack(alignment: .leading) {
+                    HStack {
+                        ZStack {
+                            Circle()
+                                .frame(width: 30)
+                                .foregroundColor(element.elementColor)
+                            
+                            
+                            
+                            Text(element.symbol)
+                                .foregroundColor(.white)
+                                                    }
+                        Text(element.name)
+                        if element.phase == .gas {
+                            Image(systemName: "wind")
+                                .rotationEffect(.degrees(-90))
+                        } else if element.phase == .liquid {
+                            Image(systemName: "drop.fill")
+                        }
+
+                        Spacer()
+                    }
+                }
+            }
+        }
     }
 }
 
