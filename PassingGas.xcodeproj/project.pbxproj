@@ -18,6 +18,7 @@
 		D647AE992886072A00E39EA3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647AE982886072A00E39EA3 /* ViewModel.swift */; };
 		D647AE9B288607F700E39EA3 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647AE9A288607F700E39EA3 /* BackgroundView.swift */; };
 		D647AE9D288613F500E39EA3 /* periodic_table.json in Resources */ = {isa = PBXBuildFile; fileRef = D647AE9C288613F500E39EA3 /* periodic_table.json */; };
+		D647AE9F28883F9D00E39EA3 /* BoilRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647AE9E28883F9D00E39EA3 /* BoilRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		D647AE982886072A00E39EA3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		D647AE9A288607F700E39EA3 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		D647AE9C288613F500E39EA3 /* periodic_table.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = periodic_table.json; sourceTree = "<group>"; };
+		D647AE9E28883F9D00E39EA3 /* BoilRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				D647AE6C288606F800E39EA3 /* PassingGasApp.swift */,
 				D647AE6E288606F800E39EA3 /* ContentView.swift */,
+				D647AE9E28883F9D00E39EA3 /* BoilRatingView.swift */,
 				D647AE9A288607F700E39EA3 /* BackgroundView.swift */,
 				D647AE962886071100E39EA3 /* Model.swift */,
 				D647AE982886072A00E39EA3 /* ViewModel.swift */,
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D647AE9B288607F700E39EA3 /* BackgroundView.swift in Sources */,
+				D647AE9F28883F9D00E39EA3 /* BoilRatingView.swift in Sources */,
 				D647AE972886071100E39EA3 /* Model.swift in Sources */,
 				D647AE6F288606F800E39EA3 /* ContentView.swift in Sources */,
 				D647AE992886072A00E39EA3 /* ViewModel.swift in Sources */,

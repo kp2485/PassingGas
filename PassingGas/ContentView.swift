@@ -22,8 +22,6 @@ struct ContentView: View {
                                 .frame(width: 30)
                                 .foregroundColor(element.elementColor)
                             
-                            
-                            
                             Text(element.symbol)
                                 .foregroundColor(.white)
                                                     }
@@ -34,8 +32,16 @@ struct ContentView: View {
                         } else if element.phase == .liquid {
                             Image(systemName: "drop.fill")
                         }
+                        
+                        
+
 
                         Spacer()
+                    }
+                    HStack {
+                        BoilRatingView(boilRating: element.boilRating)
+                            .frame(width: 40, height: 40)
+                        .padding(.leading)
                     }
                 }
             }

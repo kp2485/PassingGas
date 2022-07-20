@@ -16,12 +16,12 @@ struct Element: Codable, Identifiable {
     let atomicMass: Double
     let boil: Double?
     var boilRating: Double {
-        return Double(boil ?? 1 / 6203)
+        Double((boil ?? 1) / 6203)
     }
     let category: String
     var elementColor: Color {
         if category == "diatomic nonmetal" {
-            return .pink
+            return .green
         } else if category == "noble gas" || category == "unknown, predicted to be noble gas" {
             return .red
         } else if category == "alkali metal" || category == "unknown, but predicted to be an alkali metal" {
@@ -49,6 +49,9 @@ struct Element: Codable, Identifiable {
     }
     let discoveredBy: String?
     let melt, molarHeat: Double?
+    var meltRating: Double {
+        Double(melt ?? 1 / 3695)
+    }
     let namedBy: String?
     let number, period: Int
     let phase: Phase
@@ -59,6 +62,12 @@ struct Element: Codable, Identifiable {
     let shells: [Int]
     let electronConfiguration, electronConfigurationSemantic: String
     let electronAffinity, electronegativityPauling: Double?
+    var electronAffinityRating: Double {
+        Double(electronAffinity ?? 1 / 350)
+    }
+    var electronegativityRating: Double {
+        Double((electronegativityPauling ?? 0 - 0.78) / 3.29)
+    }
     let ionizationEnergies: [Double]
     let cpkHex: String?
     
