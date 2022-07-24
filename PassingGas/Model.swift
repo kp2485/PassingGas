@@ -16,7 +16,7 @@ struct Element: Codable, Identifiable {
     let atomicMass: Double
     let boil: Double?
     var boilRating: Double {
-        Double((boil ?? 1) / 6203)
+        Double(1 - ((boil ?? 1) / 6203))
     }
     let category: String
     var elementColor: Color {
@@ -50,7 +50,7 @@ struct Element: Codable, Identifiable {
     let discoveredBy: String?
     let melt, molarHeat: Double?
     var meltRating: Double {
-        Double(melt ?? 1 / 3695)
+        Double(1 - ((melt ?? 1) / 3695))
     }
     let namedBy: String?
     let number, period: Int
@@ -63,10 +63,10 @@ struct Element: Codable, Identifiable {
     let electronConfiguration, electronConfigurationSemantic: String
     let electronAffinity, electronegativityPauling: Double?
     var electronAffinityRating: Double {
-        Double(electronAffinity ?? 1 / 350)
+        Double((electronAffinity ?? 1) / 350)
     }
     var electronegativityRating: Double {
-        Double((electronegativityPauling ?? 0 - 0.78) / 3.29)
+        Double(((electronegativityPauling ?? 0.79) - 0.78) / 3.29)
     }
     let ionizationEnergies: [Double]
     let cpkHex: String?

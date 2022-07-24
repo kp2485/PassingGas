@@ -33,15 +33,48 @@ struct ContentView: View {
                             Image(systemName: "drop.fill")
                         }
                         
-                        
+//                        Text(element.appearance)
 
 
                         Spacer()
                     }
                     HStack {
-                        BoilRatingView(boilRating: element.boilRating)
-                            .frame(width: 40, height: 40)
-                        .padding(.leading)
+                        VStack {
+                            BoilRatingView(boilRating: element.boilRating)
+                                .frame(width: 40, height: 40)
+                            .padding(.horizontal)
+                            Text("Gas\nAffinity")
+                                .font(.caption2)
+                                .frame(height: 30)
+                                .multilineTextAlignment(.center)
+                        }
+                        VStack {
+                            MeltRatingView(meltRating: element.meltRating)
+                                .frame(width: 40, height: 40)
+                            .padding(.horizontal)
+                            Text("Liquid\nAffinity")
+                                .font(.caption2)
+                                .frame(height: 30)
+                                .multilineTextAlignment(.center)
+                        }
+                        VStack {
+                            EARatingView(eaRating: element.electronAffinityRating)
+                                .frame(width: 40, height: 40)
+                            .padding(.horizontal)
+                            Text("Electron\nAffinity")
+                                .font(.caption2)
+                                .frame(height: 30)
+                                .multilineTextAlignment(.center)
+                        }
+                        VStack {
+                            ENRatingView(enRating: element.electronegativityRating)
+                                .frame(width: 40, height: 40)
+                            .padding(.horizontal)
+                            Text("Electro-\nnegativity")
+                                .font(.caption2)
+                                .frame(height: 30)
+                                .multilineTextAlignment(.center)
+                        }
                     }
                 }
             }
